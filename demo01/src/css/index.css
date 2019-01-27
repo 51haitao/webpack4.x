@@ -1,0 +1,24 @@
+.menuCnt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.menuCnt .menuItem {
+    width: 20%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menuItem img {
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.menuItem p {
+    font-size: 14px;
+}
